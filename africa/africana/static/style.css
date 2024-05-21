@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background-color: aqua;
+    color: blue;
+}
+
+.header a{
+    padding-left: 2px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.mid-section{
+    position: absolute;
+    top: 51px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+}
+
+.media{
+    position: absolute;
+    top: 300px;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+}
+
+
+#hint{
+    position: absolute;
+    top: 500px;
+    text-align: center;
+    height: 20px;
+    color: brown;
+}
+
+.services{
+    position: absolute;
+    top: 600px;
+    height: 320px;
+    width: 100%;
+    display: flex;
+}
+
+.services div{
+    border: solid;
+    padding: 4px;
+    margin-left: 100px;
+    
+}
+
+.services div a{
+  margin-top: 100px;
+  font-size: 25px;
+  color: black;
+}
+
+#sentence{
+    font-size: 20px;
+}
+
+#l{
+    margin-left: 80px;
+    border-radius: white;
+}
+#b{
+    margin-left: 80px;
+}
+#s{
+    margin-left: 10px;
+}
+.services a:hover{
+    border: solid;
+    font-size: 30px;
+    color: brown;    
+}
+
+#here{
+    top: 245px;
+    height: 49px;
+    width: 100%;
+    position: absolute;
+}
+#marq{
+font-size: 20px;
+}
+
+#here hr{
+    height: 5px;
+}

@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+background-color: coral;
+}
+
+#header{
+    color:brown;
+    margin-left: 25%;
+}
+
+form{
+    margin-left: 5%;
+}
+
+#description{
+    margin-left: 5%;
+    top: 20px;
+}

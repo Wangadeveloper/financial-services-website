@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}register{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='register.css')}}">
+{% endblock %}
+{% block body %}
+<div class="container">
+    <form action="" method="post">
+     {{form.hidden_tag()}}
+     <h1><u>Registration form</u></h1>
+     <h2>enter your name</h2>
+     {{form.username}}
+     <h2>enter your email adress</h2>
+     {{form.email()}}
+     <h2>enter your password</h2>
+     {{form.password()}}
+     <h2>confirm password</h2>
+     {{form.conf_password}}
+     {{form.submit()}}
+     <p>have an account <a href="{{url_for('login')}}">click here</a> to login</p>
+    </form>
+ </div>
+{% endblock %}
+\
